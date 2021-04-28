@@ -10,6 +10,9 @@ h2{
     font-family: 'Roboto Mono', monospace;
 }
 #detail{
+    margin-left: minmax(0px,20px);
+    margin-right: minmax(0px,10px);
+    margin-top: 20px;
     box-shadow: 0px 0px 5px 0px white;
     border-radius:10px ;
     resize: none;
@@ -22,6 +25,9 @@ h2{
     transition: all 0.3s ease-out;
 }
 #detail:hover{
+    margin-left: minmax(0px,20px);
+    margin-right: minmax(0px,10px);
+    margin-top: 20px;
     box-shadow: 0px 0px 5px 0px black;
     border-radius:10px;
     resize: none;
@@ -44,7 +50,7 @@ form{
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: minmax(200px,800px);
+    width: minmax(200px,500px);
     background-color: transparent;
 }
 
@@ -53,7 +59,9 @@ form input{
     box-shadow: 0px 0px 5px 0px white;
     border-radius:10px ;
     font-family: 'Roboto Mono', monospace;
-    margin: 20px;
+    margin-left: minmax(0px,20px);
+    margin-right: minmax(0px,10px);
+    margin-top: 20px;
     padding: 20px;
     border: 0px solid;
     font-size: 20px;
