@@ -1,0 +1,95 @@
+#navbar {
+    display: flex;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    overflow: hidden;
+    user-select: none;
+    
+}
+
+body {
+    background-color: rgba(204, 135, 6, 0.76);
+    margin: 0;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#main {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    text-align: center;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
+    grid-column: 300px 300px 300px;
+}
+
+#logo {
+    background-color: transparent;
+    width: 33.3%;
+    text-align: center;
+}
+
+#add {
+    background-color: transparent;
+    width: 33.3%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#plus-button {
+    border: 0px solid;
+    box-shadow: 0px 0px 5px 0px white;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.3s  ease-in-out;
+}
+
+#plus-button:hover {
+    border: 0px solid;
+    box-shadow: 0px 0px 5px 0px white;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+.div {
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px 1px white;
+}
+
+.div nav {
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding: 0px;
+    box-shadow: 0px 0px 5px 0px white;
+}

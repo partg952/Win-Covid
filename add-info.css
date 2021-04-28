@@ -1,0 +1,99 @@
+body{
+    background-color: rgba(204, 135, 6, 0.76);
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+#detail{
+    box-shadow: 0px 0px 5px 0px white;
+    border-radius:10px ;
+    resize: none;
+    width: 300px;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: transparent;
+    border: 0px solid;
+    text-align: center;
+    transition: all 0.3s ease-out;
+}
+#detail:hover{
+    box-shadow: 0px 0px 5px 0px black;
+    border-radius:10px;
+    resize: none;
+    width: minmax(50px,100px);
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: white;
+    border: 0px solid;
+    text-align: center;
+}
+
+form{
+    
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto Mono', monospace;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: minmax(200px,800px);
+    background-color: transparent;
+}
+
+form input{
+    width: minmax(auto,700px);
+    box-shadow: 0px 0px 5px 0px white;
+    border-radius:10px ;
+    font-family: 'Roboto Mono', monospace;
+    margin: 20px;
+    padding: 20px;
+    border: 0px solid;
+    font-size: 20px;
+    background-color: transparent;
+    transition: all 0.3s ease-out;
+}
+form input:hover{
+    width: minmax(auto,700px);
+    box-shadow: 0px 0px 5px 0px white;
+    border-radius:10px ;
+    font-family: 'Roboto Mono', monospace;
+    margin: 20px;
+    padding: 20px;
+    border: 0px solid;
+    background-color: white;
+
+}
+
+#submit{
+    margin-top: 10px;
+    background-color: transparent;
+    font-size: 18px;
+    box-shadow: 0px 0px 5px 0px white;
+    border: 0px solid;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease-out;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+#submit:hover{
+    font-family: 'Roboto Mono', monospace;
+    
+    margin-top: 10px;
+    background-color: white;
+    font-size: 18px;
+    box-shadow: 0px 0px 5px 0px white;
+    border: 0px solid;
+    padding: 20px;
+    border-radius: 10px;
+}
+
